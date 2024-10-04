@@ -4,7 +4,7 @@ import 'package:mvvm_project/view/homeScreen.dart';
 import 'package:mvvm_project/view/loginscreen.dart';
 
 class Routes {
-  static MaterialPageRoute generateRoutes(RouteSettings settings) {
+  static Route<dynamic> generateRoutes(RouteSettings settings) {
     switch (settings.name) {
       case RoutesName.home:
         return MaterialPageRoute(
